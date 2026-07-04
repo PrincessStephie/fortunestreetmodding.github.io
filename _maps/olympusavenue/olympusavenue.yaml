@@ -4,14 +4,15 @@ desc:
   en: Mount Olympus is on the market. This rare chance to own a piece of the pantheon has attracted the Titans of real estate, Mario & friends. They are on a quest to find mythical deals even if that means embarking on an epic journey into the heart of ancient Greek myths and legends.
 ruleSet: Standard
 theme: DragonQuest
-initialCash: 2500
+initialCash: 2400
 targetAmount: 25000
-baseSalary: 222
-salaryIncrement: 222
+baseSalary: 200
+salaryIncrement: 200
 maxDiceRoll: 7
 frbFiles:
 - minotaur
 - apollo
+- hecate
 - aegis
 - ares
 - artemis
@@ -20,12 +21,12 @@ frbFiles:
 - hestia
 - demeter
 - dionysus
-- pan
-- hades
 - triton
 - aphrodite
-- athena
 - zeus
+- pan
+- hades
+- athena
 background: pacparty_mirageoasis
 mapIcon: athens
 music:
@@ -35,6 +36,7 @@ music:
   map: 
   - olympus_MAPD
   - smbw_mo_MAP00
+  - olympus_MAPE
   - olympus_MAPB
   - olympus_MAPC
   - olympus_MAPF
@@ -43,12 +45,12 @@ music:
   - sm3dl_mo_MAP02
   - olympus_MAPE
   - olympus_MAPD
-  - olympus_MAPG
-  - olympus_MAPA
   - olympus_MAPH
   - smbw_mo_MAP03
-  - olympus_MAPB
   - PACPARTY_mirageoasis_MAP_3
+  - olympus_MAPG
+  - olympus_MAPA
+  - olympus_MAPB
   stock: pmcs_hg_STOCK
   ventureCards: slimeguyspaydayexpressVENTURE.50
   auction: PACPARTY_mirageoasis_AUC
@@ -79,6 +81,12 @@ tourMode:
   opponent3: Peach
   clearRank: 2
 changelog:
+  - version: 5
+    changed:
+      - Added one more new board state, Hecate
+      - lowered starting cash, salary, and increments
+      - adjusted the order of states
+      - adjusted the board layout of the Aphrodite board state
   - version: 4
     changed:
       - Added two more board states, Aphrodite & Dionysus
