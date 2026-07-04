@@ -50,6 +50,9 @@ backgrounds: backgrounds.yml
       practiceBoard: true
 1:
   0:
+    slimeguyspaydayexpress.zip:
+      urls:
+      - https://nikkums.io/cswt/Maps/slimeguyspaydayexpress.zip
     Ennesan20.zip:
       urls:
       - https://nikkums.io/cswt/Maps/Ennesan20.zip
@@ -59,7 +62,6 @@ backgrounds: backgrounds.yml
     Sandsea.zip:
       urls:
       - https://nikkums.io/cswt/Maps/Sandsea.zip
-    placeholder.zip:
     placeholder.zip:
     placeholder.zip:
   1:
