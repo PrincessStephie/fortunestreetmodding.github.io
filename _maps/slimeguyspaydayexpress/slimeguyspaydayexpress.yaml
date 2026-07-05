@@ -46,6 +46,14 @@ tourMode:
   opponent3: Toad
   clearRank: 2
 changelog:
+  - version: 7
+    changed:
+      - Removed the purple backstreet in the engine car, and changed the destination for the one in the train to lead to event square 58 right by the door
+      - Added waypoints so that players can choose to go through the door from square 58 or walk back into the train car instead, total paths remained the same
+      - Moved the loaction of the Arcade to where the portal used to be
+      - Broke up the properties a bit in the engine car by placing different squares there and made those two districts consist of 5 properties
+      - Added a 67 event square to the board replacing the x4 buyout
+      - Moved the location of the purple portal to a different train car so that the door to the bank and it aren't ever in a similar spot. 
   - version: 6
     changed:
       - Reverted board back to version 1
