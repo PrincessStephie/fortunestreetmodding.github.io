@@ -1260,6 +1260,7 @@
 - background: Skyloft
   name: Skyloft
   download:
+  - https://nikkums.io/cswt/Backgrounds/Skyloft.background.zip
   - https://drive.google.com/uc?export=download&id=17bC678QVHO07HT3p3594Zj2C9x3LhHMK
   mapIcon: GoddessCrest
   music:
