@@ -1334,4 +1334,11 @@
       slurpodromeStart: msm_slimeStart.80
       slurpodromeWin: msm_slimeWin.80
       win: msm_win.80
+- background: Mazeana
+  name: Mazeana
+  download:
+  - https://drive.google.com/uc?export=download&id=1-dIvVdDSwG_zz8akC_0xkXSbKNUno6la
+  mapIcon: Mazeana
+  music:
+      map: arishutup.80
   
